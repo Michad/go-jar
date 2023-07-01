@@ -2,7 +2,7 @@
 
 ## Q: How many requests per second can be handled?
 
-You're asking the wrong the question. The strict answer to your question is "many thousands on a 2CPU/4G instance". Various handlers add their own latencies, but in general it's the endpoint roundtrip that serves the request content that adds the most.
+You're asking the wrong question. The strict answer to your question is "many thousands on a 2CPU/4G instance". Various handlers add their own latencies, but in general it's the endpoint roundtrip that serves the request content that adds the most.
 
 ## Q: How are Paths chosen?
 
